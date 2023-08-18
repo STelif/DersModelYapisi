@@ -21,6 +21,9 @@ namespace DersModelYapisi.Controllers
             cardProducts.Add(cartProduct2);
             cardProducts.Add(cartProduct3);
 
+            //Sepet sistemi oluşturabilmek için ürünleri oluşturduk sonra diğer yeni ürünlerin içine atadık ilk ürünlerimizi.
+            //Daha sonra liste yapıp viewe gönderdik.
+
             CardProductViewModel datas = new CardProductViewModel{  products= cardProducts };
 
             decimal ToplamTutar = 0;
